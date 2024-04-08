@@ -12,6 +12,11 @@ export function Counter({ initialCount }: { readonly initialCount: number }) {
     );
   }, [count]);
 
+  useEffect(() => {
+    console.log('Connected', ref.current);
+    return (): void => console.log('Disconnected', ref.current);
+  }, []);
+
   return (
     <div ref={ref} style={{ display: 'flex', gap: '1rem' }}>
       <button onClick={decrement}>-</button>
