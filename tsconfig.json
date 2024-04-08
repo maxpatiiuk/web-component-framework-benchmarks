@@ -1,0 +1,36 @@
+{
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    /* Basic Options */
+    "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "module": "ESNext",
+    "sourceMap": true,
+    "target": "ES2022",
+    /**/
+    /* Strict Checks */
+    "strict": true,
+    /**/
+    /* Module Resolution */
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    /**/
+    /* Linter Checks */
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    /**/
+    /* Advanced */
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false
+  },
+  "noPropertyAccessFromIndexSignature": true
+}

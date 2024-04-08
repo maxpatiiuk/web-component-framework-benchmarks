@@ -1,0 +1,36 @@
+{
+  "scripts": {
+    "install": "run-s install:*",
+    "install:root": "npm install",
+    "install:stencil": "npm --prefix ./stencil install",
+    "install:demo:stencil-dist": "npm --prefix ./demo-apps/stencil-dist install",
+    "install:demo:stencil-dist-custom-elements": "npm --prefix ./stencil-dist-custom-elements install",
+    "install:lit": "npm --prefix ./lit install",
+    "install:demo:lit": "npm --prefix ./demo-apps/lit install",
+    "install:preact": "npm --prefix ./preact install",
+    "install:demo:preact": "npm --prefix ./demo-apps/preact install",
+    "install:vue": "npm --prefix ./vue install",
+    "install:demo:vue": "npm --prefix ./demo-apps/vue install",
+    "install:solid-js": "npm --prefix ./solid-js install",
+    "install:demo:solid-js": "npm --prefix ./demo-apps/solid-js install",
+    "install:demo:map-components-dist": "npm --prefix ./demo-apps/map-components-dist install",
+    "install:demo:map-components-dist-custom-elements": "npm --prefix ./demo-apps/map-components-dist-custom-elements install",
+    "build": "run-s build:*",
+    "build:stencil": "cd stencil && npm run build",
+    "build:demo:stencil-dist": "cd demo-apps/stencil-dist && npm run build",
+    "build:demo:stencil-dist-custom-elements": "cd stencil-dist-custom-elements && npm run build",
+    "build:lit": "cd lit && npm run build",
+    "build:demo:lit": "cd demo-apps/lit && npm run build",
+    "build:preact": "cd preact && npm run build",
+    "build:demo:preact": "cd demo-apps/preact && npm run build",
+    "build:vue": "cd vue && npm run build",
+    "build:demo:vue": "cd demo-apps/vue && npm run build",
+    "build:solid-js": "cd solid-js && npm run build",
+    "build:demo:solid-js": "cd demo-apps/solid-js && npm run build",
+    "build:demo:map-components-dist": "cd demo-apps/map-components-dist && npm run build",
+    "build:demo:map-components-dist-custom-elements": "cd demo-apps/map-components-dist-custom-elements && npm run build"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
