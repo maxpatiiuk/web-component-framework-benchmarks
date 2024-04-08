@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "type": "module",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc",
+    "build:vite": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@preact/signals": "^1.2.3",
+    "@types/preact-custom-element": "^4.0.4",
+    "preact": "^10.20.1",
+    "preact-custom-element": "^4.3.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.2",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8"
+  }
+}
