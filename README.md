@@ -88,6 +88,17 @@ Cool part I found out: Lit supports
 an open standard for documenting web components (including their events and
 slots). This project also provides a CLI for extracting the component metadata.
 
+### Solid.js
+
+Like React, but with much better performance, tiny bundle size, and signals 🥳.
+
+- `6.3kb` transferred - `13.2kb` resources
+- `DOMContentLoaded` in `27.18ms` (average of 28.2, 30.9, 29.7, 33.7, 13.4)
+- `First Contentful Paint` in `39.38ms` (average of 34.9, 43.1, 43.1, 41.4,
+  34.4)
+- `3` network requests
+- Vite build in a consuming application took `78ms`
+
 ### Preact
 
 (no lazy loading - similar to Stencil's `dist-custom-elements` output target)
