@@ -1,0 +1,32 @@
+{
+  "name": "solid-js-example",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "solid-devtools": "^0.30.0",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "dependencies": {
+    "solid-element": "^1.8.0",
+    "solid-js": "^1.8.16"
+  }
+}
