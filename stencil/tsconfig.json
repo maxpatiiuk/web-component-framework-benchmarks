@@ -1,5 +1,6 @@
 {
   "include": ["src"],
+  "files": ["node_modules/@esri/calcite-components/dist/types/components.d.ts"],
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "jsxFactory": "h",

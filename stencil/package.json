@@ -16,12 +16,13 @@
     "generate": "stencil generate"
   },
   "dependencies": {
-    "@stencil/core": "4.14.1"
+    "@esri/calcite-components": "^2.9.0",
+    "@stencil/core": "4.18.3"
   },
   "devDependencies": {
-    "@stencil/core": "4.14.1",
-    "@types/node": "^20.12.5",
-    "typescript": "5.4.4"
+    "@stencil/core": "4.18.3",
+    "@types/node": "^20.14.1",
+    "typescript": "5.4.5"
   },
   "license": "MIT"
 }
